@@ -1,0 +1,50 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f5ffff; /* Um rosa bem clarinho */
+    color: #4a4a4a;
+    padding: 20px;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+#catalogo-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.card-doce {
+    background: white;
+    border-radius: 15px;
+    padding: 20px;
+    width: 280px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    border: 1px solid lab(87.53% -57.54 5.56);
+}
+
+.card-doce h3 {
+    color: lab(82.13% -54.33 5.1); /* Rosa mais forte para o nome do doce */
+    margin-top: 0;
+}
+
+.preco {
+    font-weight: bold;
+    font-size: 1.2rem;
+    color: #7d4e2efb; /* Verde para o preço */
+}
+
+.btn-pedido {
+    background-color: #25d366; /* Verde do WhatsApp */
+    color: rgb(255, 255, 255);
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    width: 100%;
+    cursor: pointer;
+    font-weight: bold;
+    margin-top: 10px;
+}
