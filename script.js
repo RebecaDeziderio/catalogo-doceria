@@ -58,7 +58,7 @@ function renderizarCatalogo(produtos) {
                     <strong>Sabores:</strong> ${doce.sabores.join(", ")}
                 </div>
                 
-                <button class="btn-pedido" onclick="window.open('https://wa.me/11963342964?text=Olá! Gostaria de pedir: ${doce.nome}', '_blank')">
+                <button class="btn-pedido" onclick="window.open('https://wa.me/11992825255?text=Olá! Gostaria de pedir: ${doce.nome}', '_blank')">
                     Pedir no WhatsApp
                 </button>
             </div>
